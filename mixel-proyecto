@@ -1,0 +1,84 @@
+# 🎮 MIXEL - Juego Educativo
+
+## 👋 Sobre el proyecto
+
+**Mixel** es un juego educativo diseñado para combinar el aprendizaje y el entretenimiento mediante una experiencia interactiva.
+
+El objetivo principal del juego es que los jugadores puedan **aprender y poner a prueba sus conocimientos** a través de diferentes preguntas relacionadas con los temas estudiados.
+
+## 🎯 Objetivo del juego
+
+El objetivo de **Mixel** es presentar diferentes preguntas educativas y permitir que el jugador seleccione la respuesta que considere correcta.
+
+El juego busca hacer que el aprendizaje sea más dinámico, interactivo y entretenido, utilizando elementos propios de los videojuegos.
+
+## 🧠 ¿Cómo funciona?
+
+El funcionamiento básico de Mixel consiste en:
+
+1. 🎮 El jugador inicia el juego.
+2. 📚 Selecciona o ingresa a una temática.
+3. ❓ El juego presenta una pregunta.
+4. 🔘 El jugador selecciona una respuesta.
+5. ✅ El sistema comprueba si la respuesta es correcta.
+6. 📊 Se actualiza la puntuación.
+7. 🔄 El juego continúa con nuevas preguntas.
+8. 🏆 Al finalizar se muestra el resultado obtenido.
+
+## 📚 Temáticas
+
+El juego puede incluir preguntas relacionadas con diferentes áreas de estudio, por ejemplo:
+
+- 💻 Desarrollo de Software
+- 🗄️ Bases de Datos
+- 🌐 Redes
+- 🤖 Robótica
+- 🧠 Inteligencia Artificial
+- 🔐 Ciberseguridad
+- 🖥️ Hardware y Software
+- 🎮 Desarrollo de Videojuegos
+
+## 🕹️ Características principales
+
+- ❓ Sistema de preguntas y respuestas.
+- 🎯 Sistema de puntuación.
+- 📚 Contenido educativo.
+- 🎮 Interfaz interactiva.
+- 🔄 Diferentes preguntas.
+- 🏆 Resultado final.
+- 🧠 Aprendizaje mediante el juego.
+
+## 💻 Tecnologías utilizadas
+
+Para el desarrollo del proyecto se pueden utilizar diferentes tecnologías y herramientas:
+
+- 🌐 HTML
+- 🎨 CSS
+- ⚡ JavaScript
+- 🎮 Godot
+- 🖥️ Visual Studio Code
+
+## 📂 Estructura del proyecto
+
+```text
+📁 Mixel
+│
+├── 📄 README.md
+│
+├── 📁 Assets
+│   ├── 🖼️ Imagenes
+│   ├── 🎵 Sonidos
+│   └── 🎮 Recursos
+│
+├── 📁 Scripts
+│   ├── Preguntas
+│   ├── Respuestas
+│   └── Puntuacion
+│
+├── 📁 Escenas
+│   ├── Menu
+│   ├── Juego
+│   └── Resultados
+│
+└── 📁 Documentacion
+    └── Informacion del proyecto

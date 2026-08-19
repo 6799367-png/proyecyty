@@ -1,146 +1,54 @@
-🎮 MIXEL - Juego Educativo
-<div align="center"> <img src="./<img src="blob:chrome-untrusted://media-app/d27fd66f-ec4d-4a00-b09a-8d147c154ee3" alt="Screenshot 2026-08-18 3.44.28 PM.png"/>" alt="Imagen del juego Mixel" width="600"> </div>
-👋 Sobre el proyecto
+# 🎮 MIXEL - Juego Educativo
 
-Mixel es un juego educativo diseñado para combinar el aprendizaje y el entretenimiento mediante una experiencia interactiva.
-
-El objetivo principal del juego es que los jugadores puedan aprender y poner a prueba sus conocimientos a través de diferentes preguntas relacionadas con los temas estudiados.
-
-🎯 Objetivo del juego
-
-El objetivo de Mixel es presentar diferentes preguntas educativas y permitir que el jugador seleccione la respuesta que considere correcta.
-
-El juego busca hacer que el aprendizaje sea más dinámico, interactivo y entretenido, utilizando elementos propios de los videojuegos.
-
-🧠 ¿Cómo funciona?
-
-El funcionamiento básico de Mixel consiste en:
-
-🎮 El jugador inicia el juego.
-📚 Selecciona o ingresa a una temática.
-❓ El juego presenta una pregunta.
-🔘 El jugador selecciona una respuesta.
-✅ El sistema comprueba si la respuesta es correcta.
-📊 Se actualiza la puntuación.
-🔄 El juego continúa con nuevas preguntas.
-🏆 Al finalizar se muestra el resultado obtenido.
-📚 Temáticas
-
-El juego puede incluir preguntas relacionadas con diferentes áreas de estudio, por ejemplo:
-
-💻 Desarrollo de Software
-🗄️ Bases de Datos
-🌐 Redes
-🤖 Robótica
-🧠 Inteligencia Artificial
-🔐 Ciberseguridad
-🖥️ Hardware y Software
-🎮 Desarrollo de Videojuegos
-🕹️ Características principales
-❓ Sistema de preguntas y respuestas.
-🎯 Sistema de puntuación.
-📚 Contenido educativo.
-🎮 Interfaz interactiva.
-🔄 Diferentes preguntas.
-🏆 Resultado final.
-🧠 Aprendizaje mediante el juego.
-💻 Tecnologías utilizadas
-
-Para el desarrollo del proyecto se utilizan diferentes tecnologías y herramientas:
-
-🌐 HTML
-🎨 CSS
-⚡ JavaScript
-🎮 Godot
-💻 Visual Studio Code
-📂 Estructura del proyecto
-📁 Mixel
-│
-├── 📄 README.md
-│
-├── 📁 Assets
-│   │
-│   ├── 📁 Imagenes
-│   │   └── 🖼️ mixel.png
-│   │
-│   ├── 📁 Sonidos
-│   │   └── 🎵 ...
-│   │
-│   └── 📁 Recursos
-│       └── 🎮 ...
-│
-├── 📁 Scripts
-│   │
-│   ├── 📄 Preguntas
-│   ├── 📄 Respuestas
-│   └── 📄 Puntuacion
-│
-├── 📁 Escenas
-│   │
-│   ├── 📁 Menu
-│   ├── 📁 Juego
-│   └── 📁 Resultados
-│
-└── 📁 Documentacion
-    └── 📄 Informacion-del-proyecto
-
-🖼️ Capturas del juego
-
-Puedes agregar más imágenes de tu juego utilizando el mismo método.
-
-🎮 Menú principal
-<div align="center"> <img src="./Assets/Imagenes/menu.png" alt="Menú principal de Mixel" width="600"> </div>
-❓ Preguntas
-<div align="center"> <img src="./Assets/Imagenes/preguntas.png" alt="Preguntas de Mixel" width="600"> </div>
-🏆 Resultados
-<div align="center"> <img src="./Assets/Imagenes/resultados.png" alt="Resultados de Mixel" width="600"> </div>
-🚀 Instalación
-
-Para utilizar el proyecto:
-
-📥 Clona o descarga el repositorio.
-📂 Abre la carpeta del proyecto.
-🎮 Abre el proyecto utilizando Godot.
-▶️ Ejecuta el proyecto.
-🧠 Comienza a responder las preguntas.
-🎯 Objetivos del proyecto
-
-Con Mixel se busca:
-
-📚 Facilitar el aprendizaje mediante videojuegos.
-🎮 Crear una experiencia educativa interactiva.
-🧠 Reforzar los conocimientos adquiridos.
-💻 Aplicar conocimientos de programación.
-🎨 Mejorar las habilidades de diseño e interfaz.
-🚀 Desarrollar un proyecto tecnológico funcional.
-🔮 Futuras mejoras
-
-En futuras versiones se pueden agregar:
-
-👥 Sistema de usuarios.
-🏆 Tabla de clasificación.
-⭐ Sistema de niveles.
-❤️ Sistema de vidas.
-⏱️ Temporizador para preguntas.
-🎵 Música y efectos de sonido.
-🌎 Más categorías educativas.
-📊 Estadísticas del jugador.
-🥇 Logros y recompensas.
-🌐 Modo multijugador.
-👨‍💻 Autor
-<div align="center">
-Jamie Alisson Cortez Lemus
-
-🎓 Estudiante de Desarrollo de Software
-
-💻 Programación | 🎮 Videojuegos | 🤖 Tecnología
-
-</div>
-💙 Gracias por visitar Mixel
 <div align="center">
 
-🎮 Aprender jugando también es aprender.
+<img src="./Assets/Imagenes/mixel.png" alt="Imagen del juego Mixel" width="600">
 
-⭐ Si te gusta el proyecto, ¡no olvides darle una estrella al repositorio!
+# 🧠 Aprende • Juega • Responde • Supera tus conocimientos
 
 </div>
+
+---
+
+# 👋 Sobre el proyecto
+
+**Mixel** es un juego educativo diseñado para combinar el aprendizaje y el entretenimiento mediante una experiencia interactiva.
+
+El objetivo principal del juego es que los jugadores puedan **aprender, practicar y poner a prueba sus conocimientos** a través de diferentes preguntas relacionadas con temas educativos y tecnológicos.
+
+Mixel busca convertir el aprendizaje tradicional en una experiencia más dinámica mediante elementos propios de los videojuegos, como preguntas, respuestas, puntuaciones, niveles y resultados.
+
+---
+
+# 🎯 Objetivo del juego
+
+El objetivo principal de **Mixel** es presentar diferentes preguntas educativas y permitir que el jugador seleccione la respuesta que considere correcta.
+
+El sistema comprueba automáticamente la respuesta seleccionada y proporciona una retroalimentación al jugador.
+
+De esta manera, el usuario puede aprender de sus errores mientras continúa avanzando dentro del juego.
+
+### 🕹️ Flujo básico del juego
+
+```text
+🎮 INICIAR JUEGO
+       ↓
+📚 SELECCIONAR TEMÁTICA
+       ↓
+❓ MOSTRAR PREGUNTA
+       ↓
+🔘 SELECCIONAR RESPUESTA
+       ↓
+🧠 COMPROBAR RESPUESTA
+       ↓
+   ┌───┴───┐
+   ↓       ↓
+✅ CORRECTA ❌ INCORRECTA
+   ↓       ↓
+⭐ SUMAR   💡 MOSTRAR
+ PUNTOS     MENSAJE
+   └───┬───┘
+       ↓
+🔄 SIGUIENTE PREGUNTA
+       ↓
+🏆 RESULTADO FINAL

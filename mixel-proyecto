@@ -1,54 +1,159 @@
-# 🎮 MIXEL - Juego Educativo
+# 🎮 MIXEL
+## Juego educativo para aprender desarrollo de software
 
-<div align="center">
-
-<img src="./Assets/Imagenes/mixel.png" alt="Imagen del juego Mixel" width="600">
-
-# 🧠 Aprende • Juega • Responde • Supera tus conocimientos
-
-</div>
+> **MIXEL: Aprende, responde, construye y avanza.** 🚀
 
 ---
 
-# 👋 Sobre el proyecto
+## 📝 Introducción
 
-**Mixel** es un juego educativo diseñado para combinar el aprendizaje y el entretenimiento mediante una experiencia interactiva.
+MIXEL es un proyecto de videojuego educativo diseñado para enseñar y reforzar conocimientos relacionados con el **desarrollo de software** de una manera divertida, interactiva y dinámica.
 
-El objetivo principal del juego es que los jugadores puedan **aprender, practicar y poner a prueba sus conocimientos** a través de diferentes preguntas relacionadas con temas educativos y tecnológicos.
+La idea principal del juego es combinar el aprendizaje con diferentes mecánicas de videojuegos. El jugador deberá responder preguntas relacionadas con programación, algoritmos, lógica, desarrollo web, bases de datos y otros temas tecnológicos.
 
-Mixel busca convertir el aprendizaje tradicional en una experiencia más dinámica mediante elementos propios de los videojuegos, como preguntas, respuestas, puntuaciones, niveles y resultados.
+Cada pregunta representa un reto. Cuando el jugador selecciona la respuesta correcta, obtiene recompensas que le permiten avanzar dentro del juego.
+
+Las recompensas pueden ser puntos, experiencia, piezas, objetos y otros recursos. Las piezas obtenidas pueden utilizarse posteriormente para **armar y construir objetos**, haciendo que el conocimiento tenga una utilidad directa dentro del juego.
+
+El funcionamiento básico es:
+
+**Aprender → Responder → Obtener recompensa → Conseguir piezas → Construir → Desbloquear → Avanzar.**
+
+MIXEL busca demostrar que aprender programación no tiene que ser aburrido. Mediante una experiencia interactiva, el jugador puede aprender mientras se divierte y observa cómo su progreso aumenta.
 
 ---
 
-# 🎯 Objetivo del juego
+## 🎯 Objetivo general
 
-El objetivo principal de **Mixel** es presentar diferentes preguntas educativas y permitir que el jugador seleccione la respuesta que considere correcta.
+Desarrollar un juego educativo que permita a los jugadores aprender conceptos relacionados con el desarrollo de software mediante preguntas, desafíos, recompensas y construcción de objetos, combinando educación y entretenimiento en una sola experiencia.
 
-El sistema comprueba automáticamente la respuesta seleccionada y proporciona una retroalimentación al jugador.
+---
 
-De esta manera, el usuario puede aprender de sus errores mientras continúa avanzando dentro del juego.
+## 🎯 Objetivos específicos
 
-### 🕹️ Flujo básico del juego
+- Enseñar conceptos básicos de programación.
+- Reforzar conocimientos sobre desarrollo de software.
+- Mejorar el razonamiento lógico.
+- Fomentar la resolución de problemas.
+- Crear una experiencia educativa interactiva.
+- Implementar preguntas de diferentes niveles de dificultad.
+- Crear un sistema de puntos.
+- Crear un sistema de experiencia.
+- Crear diferentes niveles.
+- Implementar recompensas.
+- Crear un sistema de piezas.
+- Crear un inventario.
+- Implementar un sistema de construcción.
+- Crear logros.
+- Permitir desbloquear nuevos contenidos.
+- Motivar al jugador a continuar aprendiendo.
+- Hacer que el aprendizaje de programación sea entretenido.
+
+---
+
+## 💡 Justificación
+
+El desarrollo de software es una disciplina que requiere lógica, creatividad, análisis y capacidad para resolver problemas.
+
+Para una persona que está comenzando a aprender programación, conceptos como variables, funciones, condicionales, ciclos, algoritmos, bases de datos y programación orientada a objetos pueden resultar complicados.
+
+MIXEL propone utilizar la **gamificación** como una estrategia para facilitar el aprendizaje.
+
+En lugar de presentar únicamente información teórica, el jugador participa activamente en diferentes retos.
+
+Por ejemplo:
 
 ```text
-🎮 INICIAR JUEGO
+❓ Responder pregunta
+        ↓
+✅ Respuesta correcta
+        ↓
+⭐ Obtener puntos
+        ↓
+📈 Obtener experiencia
+        ↓
+🧩 Conseguir piezas
+        ↓
+🎒 Guardar piezas
+        ↓
+🏗️ Construir objeto
+        ↓
+🔓 Desbloquear contenido
+        ↓
+🚀 Avanzar al siguiente nivel
+
+                    🎮 MIXEL
+                       ↓
+                🏠 MENÚ PRINCIPAL
+                       ↓
+                🎯 SELECCIONAR NIVEL
+                       ↓
+                  ❓ PREGUNTA
+                       ↓
+                🧠 ANALIZAR
+                       ↓
+                🖱️ RESPONDER
+                       ↓
+             ┌─────────┴─────────┐
+             ↓                   ↓
+          ✅ CORRECTA         ❌ INCORRECTA
+             ↓                   ↓
+        ⭐ RECOMPENSA         💡 EXPLICACIÓN
+             ↓                   ↓
+         🧩 PIEZA             🔄 REINTENTAR
+             ↓
+        🎒 INVENTARIO
+             ↓
+    ¿HAY SUFICIENTES PIEZAS?
+             ↓
+       ┌─────┴─────┐
+       ↓           ↓
+      SÍ           NO
+       ↓           ↓
+ 🏗️ CONSTRUIR      │
+       ↓            │
+ 🎁 NUEVO OBJETO    │
+       ↓            │
+ 🔓 DESBLOQUEAR     │
+       ↓            │
+ 📈 AVANZAR ◄───────┘
        ↓
-📚 SELECCIONAR TEMÁTICA
+ 🎯 NUEVO DESAFÍO
+
+                         🎮 MIXEL
+                            │
+                            ↓
+                    🏠 MENÚ PRINCIPAL
+                            │
+             ┌──────────────┼──────────────┐
+             ↓              ↓              ↓
+          📚 JUGAR       🎒 INVENTARIO   🏆 LOGROS
+             │
+             ↓
+        🎯 SELECCIONAR NIVEL
+             │
+             ↓
+         ❓ PREGUNTA
+             │
+             ↓
+        🧠 RESPONDER
+             │
+       ┌─────┴─────┐
+       ↓           ↓
+      ✅           ❌
+   CORRECTA     INCORRECTA
+       ↓           ↓
+  ⭐ PREMIO     💡 AYUDA
        ↓
-❓ MOSTRAR PREGUNTA
+    🧩 PIEZA
        ↓
-🔘 SELECCIONAR RESPUESTA
+ 🎒 INVENTARIO
        ↓
-🧠 COMPROBAR RESPUESTA
+ 🏗️ CONSTRUCCIÓN
        ↓
-   ┌───┴───┐
-   ↓       ↓
-✅ CORRECTA ❌ INCORRECTA
-   ↓       ↓
-⭐ SUMAR   💡 MOSTRAR
- PUNTOS     MENSAJE
-   └───┬───┘
+ 🎁 OBJETO
        ↓
-🔄 SIGUIENTE PREGUNTA
+ 🔓 DESBLOQUEO
        ↓
-🏆 RESULTADO FINAL
+ 📈 SIGUIENTE NIVEL
+
